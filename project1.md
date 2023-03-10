@@ -81,3 +81,32 @@
 #### Output:
 
 ![PHP](./images/php2.PNG "PHP Installation Confirmation")
+
+## PROJECT-1 git commit for Step 3.
+
+#### Commands:  git add . |  git commit (Staging and commiting files)
+#### Outputs:
+
+![step3](./images/gitCommit3.PNG "step 3 commit")
+
+## Step 4: CREATING VIRTUAL HOST USING APACHE
+
+#### Command:  sudo vi /etc/apache2/sites-available/projectlamp.conf (Creating a config file)
+#### Output:
+
+![config_file](./images/VH2.PNG "Config file")
+
+#### Commands:  sudo a2ensite projectlamp, sudo a2dissite 000-default and sudo systemctl reload apache2 (Enabling Virtrual Host, disabling apache default websit and reloading apache)
+#### Output:
+
+![](./images/VH.PNG)
+
+#### Commands:  sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectlamp/index.html (create index.html with content)
+#### Output:
+
+![](./images/index.PNG)
+
+#### Commands: http://100.26.144.182/  (website is up and running)
+#### Output:
+
+![](./images/WS.PNG)

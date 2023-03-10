@@ -110,3 +110,15 @@
 #### Output:
 
 ![](./images/WS.PNG)
+
+## Step 4: ENABLE PHP ON WEBSITE
+
+#### Commands: sudo vim /etc/apache2/mods-enabled/dir.conf (changing the order of index.php)
+#### Output:
+
+![](./images/dirConf.PNG)
+
+#### Commands:  vim /var/www/projectlamp/index.php (create index.php with content)
+#### Output:
+
+![](./images/index2.PNG)

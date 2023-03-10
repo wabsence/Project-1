@@ -1,4 +1,7 @@
-## DOCUMENTATION
+# DOCUMENTATION
+
+## Step 1: APACHE INSTALLATION
+
 #### Command: sudo apt update (Packages update in Package Manager)
 #### Output:
 
@@ -24,14 +27,41 @@
 
 ![Accessingg Server](./images/apacheServer.png "accessing apache server")
 
+## PROJECT-1 GIT INITIALIZATION AND FIRST COMMIT i.e running git commit for Step 1.
+
 #### Command:  git init & git status (Project-1 git initialization and check status to see changes)
 #### Output:
 
 ![Git initialization](./images/project1GitInitialization.PNG "git initialization")
 
-#### Command:  git add . | git status | git commit (Staging and commiting files)
-#### Output:
+#### Commands:  git add . | git status | git commit (Staging and commiting files)
+#### Outputs:
 
 ![Staging](./images/gitAdd.PNG "Staging all files to commit")
 
 ![Commiting all files](./images/step1Done.PNG "Files Commited")
+
+## Step 2: MYSQL INSTALLATION
+
+#### Command: sudo apt install mysql-server (Mysql Installation)
+#### Output:
+
+![MYSQL](./images/MySQL.PNG "MYSQL Installation")
+
+#### Command: $ sudo mysql (Mysql Installation)
+#### Output:
+
+![MYSQL](./images/MySQL2.PNG "MYSQL Installation")
+
+#### Command: $ sudo mysql_secure_installation (Mysql Installation)
+#### Output:
+
+![MYSQL](./images/MySQL3.PNG "MYSQL Installation")
+
+
+#### Command: $sudo mysql -p (Mysql Console Login)
+#### Output:
+
+![MYSQL](./images/MySQL4.PNG "MYSQL Console login")
+
+## PROJECT-1 git commit for Step 2.

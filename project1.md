@@ -28,3 +28,10 @@
 #### Output:
 
 ![Git initialization](./images/project1GitInitialization.PNG "git initialization")
+
+#### Command:  git add . | git status | git commit (Staging and commiting files)
+#### Output:
+
+![Staging](./images/gitAdd.PNG "Staging all files to commit")
+
+![Commiting all files](./images/step1Done.PNG "Files Commited")

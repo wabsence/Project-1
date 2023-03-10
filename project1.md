@@ -59,9 +59,25 @@
 ![MYSQL](./images/MySQL3.PNG "MYSQL Installation")
 
 
-#### Command: $sudo mysql -p (Mysql Console Login)
-#### Output:
+## Step 2: MYSQL INSTALLATION
 
 ![MYSQL](./images/MySQL4.PNG "MYSQL Console login")
 
 ## PROJECT-1 git commit for Step 2.
+
+#### Commands:  git add . |  git commit (Staging and commiting files)
+#### Outputs:
+
+![step2](./images/gitCommit2.PNG "step 2 commit")
+
+## Step 3: PHP INSTALLATION
+
+#### Command: $ sudo apt install php libapache2-mod-php php-mysql (Php and other packages Installation)
+#### Output:
+
+![PHP](./images/php.PNG "PHP Installation")
+
+#### Command: $ php -V (Php  Installation Confirmation)
+#### Output:
+
+![PHP](./images/php2.PNG "PHP Installation Confirmation")

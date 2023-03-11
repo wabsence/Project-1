@@ -5,22 +5,22 @@
 #### Command: sudo apt update (Packages update in Package Manager)
 #### Output:
 
-![packages Updated](images/packagesUpdateOutput.png? "packages update process")
+![packages Updated](images/packages.png "packages update process")
 
 #### Command: sudo apt install apache2 (Apache 2 Installation)
 #### Output:
 
-![apache2 Installation](images/apache2Installation.png "apache2 installation process")
+![apache2 Installation](images/apache2Inst.png "apache2 installation process")
 
 #### Command: sudo systemctl status apache2 (Apache Status Confirmation)
 #### Output:
 
-![apache2 Installation](images/apacheStatus.png "apache in running state")
+![apache2 Installation](images/apacheState.png "apache in running state")
 
 #### Command:  curl http://127.0.0.1:80 (Using curl to access server via IP address)
 #### Output:
 
-![Accessingg Server](images/curlAccessServerViaIP.png "accessing server via IP address")
+![Accessingg Server](images/curlAccess.png "accessing server via IP address")
 
 #### Command:  http://100.26.144.182/ (Accessing IP address via browser)
 #### Output:
@@ -32,43 +32,43 @@
 #### Command:  git init & git status (Project-1 git initialization and check status to see changes)
 #### Output:
 
-![Git initialization](images/project1GitInitialization.png "git initialization")
+![Git initialization](images/gitInit.png "git initialization")
 
 #### Commands:  git add . | git status | git commit (Staging and commiting files)
 #### Outputs:
 
 ![Staging](images/gitAdd.png "Staging all files to commit")
 
-![Commiting all files](images/step1Done.png "Files Commited")
+![Commit_Files](images/commitFiles.png "Files Commited")
 
 ## Step 2: MYSQL INSTALLATION
 
 #### Command: sudo apt install mysql-server (Mysql Installation)
 #### Output:
 
-![MYSQL](images/MySQL.png "MYSQL Installation")
+![MYSQL_1](images/mysq.png "MYSQL Installation")
 
 #### Command: $ sudo mysql (Mysql Installation)
 #### Output:
 
-![MYSQL](images/MySQL2.png "MYSQL Installation")
+![MYSQL_2](images/mysq2.png "MYSQL Installation")
 
 #### Command: $ sudo mysql_secure_installation (Mysql Installation)
 #### Output:
 
-![MYSQL](images/MySQL3.png "MYSQL Installation")
+![MYSQL_3](images/mysq3.png "MYSQL Installation")
 
 
 ## Step 2: MYSQL INSTALLATION
 
-![MYSQL](images/MySQL4.png "MYSQL Console login")
+![MYSQL_4](images/mysq4.png "MYSQL Console login")
 
 ## PROJECT-1 git commit for Step 2. 
 
 #### Commands:  git add . |  git commit (Staging and commiting files)
 #### Outputs:
 
-![step2](images/gitCommit2.png "step 2 commit")
+![git commit](images/gitCommit2.png "git commit")
 
 ## Step 3: PHP INSTALLATION
 
@@ -104,7 +104,7 @@
 #### Commands:  sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectlamp/index.html (create index.html with content)
 #### Output:
 
-![Index](images/index.png)
+![Index](images/index1.png)
 
 #### Commands: http://100.26.144.182/  (website is up and running)
 #### Output:
@@ -116,7 +116,7 @@
 #### Commands: sudo vim /etc/apache2/mods-enabled/dir.conf (changing the order of index.php)
 #### Output:
 
-![DirConf](images/dirConf.png)
+![DirConf](images/dConf.png)
 
 #### Commands:  vim /var/www/projectlamp/index.php (create index.php with content)
 #### Output:

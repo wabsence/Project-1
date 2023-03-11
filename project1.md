@@ -58,9 +58,6 @@
 
 ![MYSQL_3](images/mysq3.png "MYSQL Installation")
 
-
-## Step 2: MYSQL INSTALLATION
-
 ![MYSQL_4](images/mysq4.png "MYSQL Console login")
 
 ## PROJECT-1 git commit for Step 2. 
@@ -89,7 +86,7 @@
 
 ![gitCommit](images/gitCommit3.png "git commit")
 
-## Step 4: CREATING VIRTUAL HOST USING APACHE
+## Step 4: CREATING VIRTUAL HOST FOR WEBSITE USING APACHE
 
 #### Command:  sudo vi /etc/apache2/sites-available/projectlamp.conf (Creating a config file)
 #### Output:

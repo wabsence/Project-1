@@ -10,7 +10,7 @@ it inculdes tasks such as:
 * Virtual Host Creation for Website using Apache and
 * Enabling PHP on website
 
-Also, a screenshot of how the project is added to git is included and how the commit are being done after successful completetion of each steps. i.e commit for step-1, step-2 etc. (kindly run git shortlog command,to see all commits done).
+Also, a screenshot of how the project is added to git is included and how the commit are being done after successful completetion of each steps. i.e commit for step-1, step-2 etc. (kindly run git shortlog command, to see all commits done).
 
 Git commands such as
 * git init (for project git initialization)
